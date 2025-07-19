@@ -6,7 +6,9 @@ function add() {
 
   document.getElementById("result").innerText = "RESULT: " + sum;
 }
+ 
 
+// add spacae and commnet here
 function subtract() {
   const num1 = document.getElementById("num1").value;
   const num2 = document.getElementById("num2").value;
