@@ -1,0 +1,223 @@
+.container{
+    display: flex;
+    position: relative;
+}
+.left{
+    width: 35%;
+background-color:#2C3E50;
+height: 210vh;
+gap: 10px;
+margin: 10px;
+border-radius: 3px;
+box-shadow: 2px 2px 5px 1px;
+}
+.right{
+    width: 800px;
+display: flex;
+flex-direction: column;
+background-color: #ECF0F1;
+margin: 10px;
+height: 110vh;
+border-radius: 3px;
+box-shadow: 2px 2px 5px 1px;
+position: relative;
+}
+.right2{
+background-color: #FDFEFE;
+width: 800px;
+margin: 10px;
+height: 120vh;
+border-radius: 3px;
+box-shadow: 2px 2px 5px 1px;
+
+}
+
+/*
+.right2:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease;
+}
+.left:hover{
+transform: scale(1.1);
+    transition: 0.3s all ease;
+}
+.right:hover{
+    transform: scale(1.1);
+    transition: 0.3s all ease;
+}*/
+.class4{
+position: relative;
+top: -45px;
+left: 70px;
+
+}
+.text{
+    position: absolute;
+    top:45vh;
+    font: bolder;
+    font-size: xx-large;
+    color: #d1d9db;
+}
+.fa-briefcase{
+    margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+.all{
+    font-size: 30px;
+    color: #ECF0F1;
+    margin: 3px;
+}
+.fa-house{
+
+     margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+.fa-phone{
+     margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+.fa-message{
+margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+
+}
+.hr{
+width: 300px;
+}
+.p{ margin: 20px;
+
+background-color: #d1d9db;
+display: flex;
+justify-content: center;
+border-radius: 20px;
+}
+.p2{
+margin: 20px;
+ width: 370px;
+background-color: #d1d9db;
+display: flex;
+justify-content: center;
+border-radius: 20px;
+}
+.p3{
+margin: 20px;
+ width: 390px;
+background-color: #d1d9db;
+display: flex;
+justify-content: center;
+border-radius: 20px;
+
+}
+.fa-earth-americas{
+margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+
+}
+
+.p4{margin: 20px;
+ width: 90px;
+background-color: #d1d9db;
+display: flex;
+justify-content: center;
+border-radius: 20px;}
+
+.all2{
+
+ font-size: 30px;
+    color: #0d0d0e;
+    margin: 3px;
+    
+}
+
+.fa-calendar{
+margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.fa-briefcase1{
+position: relative;
+top: 30px;
+
+}
+.p5{ margin: 20px;
+    background-color: #57697a;
+    border-radius: 5px;
+    padding: 10px;
+}
+.fa-star-of-life{
+
+margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fa-magnifying-glass{
+    margin: 5px;
+    font-size: 40px;
+    padding: 10px;
+}
+.last{
+background-color: #214c77;
+height: 25vh;
+margin: -5px;
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+.fa-facebook{
+    gap: 5px;
+    position: relative;
+    top: -1px;
+    right: 65px;
+    }
+ .fa-instagram{
+position: relative;
+right: 105px;
+top: -1px; 
+
+ }   
+ .fa-whatsapp{
+position: relative;
+right: 70px;
+top: -1px; 
+    
+ }
+ .fa-snapchat{
+position: relative;
+right: 60px;
+top: -1px; 
+
+ }
+ .fa-tiktok{
+
+    position: relative;
+right: 50px;
+top: -1px; 
+
+ }
+ .class{
+    position: relative;
+    top: -30px;
+    left: 100px;
+ }
+ .fa-telegram{
+position: relative;
+    left: -40px;
+ }
+ .fa-reddit{
+    position: absolute;
+    right: 110px;
+ }
+ .last1{
+    position: relative;
+    top: 30px;
+    left: -190px;
+ }

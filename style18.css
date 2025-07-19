@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-box {
+  width: 33%;
+  background-color: #f1f1f1;
+  height: 100vh;
+  border-right: 2px solid #ccc;
+}
+
+.right-box-1 {
+  width: 33.5%;
+  background-color: #ffffff;
+  height: 100vh;
+  border-right: 2px solid #ccc;
+}
+
+.right-box-2 {
+  width: 33.5%;
+  background-color: #eaeaea;
+  height: 100vh;
+}
+

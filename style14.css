@@ -1,0 +1,67 @@
+ .class{
+border-radius: 7px;
+border: solid black;
+background-color: black;
+color: rgb(246, 248, 248);
+text-align: center;
+box-shadow: 2px 2px 8px 1px black;
+padding: 30px;
+margin: 30px;
+
+ }
+ .by{
+border: solid black;
+background-color: black;
+text-align: center;
+margin: 20px;
+padding: 30px;
+border-radius: 5px;
+box-shadow: 3px 3px 8px 2px ;
+
+
+ }
+ .by:hover{
+transform: scale(1.5) ;
+transition:0.3s all ease-in-out;
+
+ }
+ .class:hover{
+
+    transform: scale(1.5) ;
+transition:0.3s all ease-in-out;
+ }
+ .hero{
+background-color: rgb(100, 116, 136);
+border: 10px;
+border-radius: 5px;
+padding: 10px;
+
+
+ }
+ .zero{
+background-color: blue;
+color: azure;
+padding: 20px;
+margin: 10px;
+border: solid rgb(247, 186, 186);
+border-radius: 15px;
+font-weight: bolder;
+font-size: larger;
+cursor: pointer;
+
+
+
+ }
+ .zero:hover{
+
+    transform: scale(1.2) rotate(1deg);
+transition: 0.3s all ease-in-out;
+ }
+ .hero:hover{
+    transform: scale(1.2) rotate(1deg);
+transition: 0.3s all ease-in-out;
+
+ } 
+
+
+ 

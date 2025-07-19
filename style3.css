@@ -1,0 +1,15 @@
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+#id {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}

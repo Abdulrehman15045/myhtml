@@ -1,0 +1,13 @@
+.box {
+    width: 1000px;
+    height: 200px;
+    margin: 10px;
+    border: solid black;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: beige;
+    color: rgb(5, 245, 245);
+    font-weight: bold;
+}

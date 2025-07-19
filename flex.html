@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Popular Dishes</title>
+</head>
+<body class="bg-gray-100 py-10 px-4">
+
+  <h1 class="text-3xl font-bold text-center mb-10">🍽 Popular Dishes</h1>
+
+  <div id="dishes" class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <!-- Cards will be injected here -->
+  </div>
+
+  <script>
+    const dishes = [
+      {
+        name: "Pizza",
+        price: "$10",
+        image: "https://source.unsplash.com/400x300/?pizza"
+      },
+      {
+        name: "Burger",
+        price: "$8",
+        image: "https://source.unsplash.com/400x300/?burger"
+      },
+      {
+        name: "Pasta",
+        price: "$12",
+        image: "https://source.unsplash.com/400x300/?pasta"
+      },
+      {
+        name: "Fries",
+        price: "$5",
+        image: "https://source.unsplash.com/400x300/?fries"
+      },
+      {
+        name: "Steak",
+        price: "$20",
+        image: "https://source.unsplash.com/400x300/?steak"
+      },
+      {
+        name: "Ice Cream",
+        price: "$6",
+        image: "https://source.unsplash.com/400x300/?icecream"
+      }
+    ];
+
+    const container = document.getElementById('dishes');
+
+    dishes.forEach(dish => {
+      container.innerHTML += `
+        <div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transform hover:scale-105 transition duration-300 cursor-pointer">
+          <img src="${dish.image}" class="w-full h-48 object-cover" />
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-1">${dish.name}</h3>
+            <p class="text-gray-600">${dish.price}</p>
+          </div>
+        </div>
+      `;
+    });
+  </script>
+
+</body>
+</html>

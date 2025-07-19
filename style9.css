@@ -1,0 +1,42 @@
+/* Cursor and Text Decoration */
+.link {
+  color: blue;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: darkblue;
+}
+
+/* Hover and Active on Button */
+.btn {
+  background-color: lightgreen;
+  border:  solid 4px; 
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2 ease-out;
+}
+.btn:hover {
+  background-color: green;
+  color: white;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+/* Focus on Input */
+.input-box {
+  padding: 8px;
+  font-size: 16px;
+  border: 2px solid gray;
+  outline: none;
+}
+
+.input-box:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 5px dodgerblue;
+}

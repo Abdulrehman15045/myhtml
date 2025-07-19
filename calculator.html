@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Calculator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+  <div class="bg-white p-6 rounded-2xl shadow-lg w-80 text-center space-y-4">
+    <h2 class="text-2xl font-bold text-gray-800">Simple Calculator</h2>
+
+    <input type="text" id="display" readonly 
+      class="w-full p-3 border border-gray-300 rounded-lg text-right text-xl focus:outline-none"/>
+
+   
+    <div class="grid grid-cols-4 gap-3">
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">7</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">8</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">9</button>
+      <button class="button bg-orange-400 hover:bg-orange-500 text-white p-4 rounded text-xl">/</button>
+
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">4</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">5</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">6</button>
+      <button class="button bg-orange-400 hover:bg-orange-500 text-white p-4 rounded text-xl">*</button>
+
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">1</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">2</button>
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">3</button>
+      <button class="button bg-orange-400 hover:bg-orange-500 text-white p-4 rounded text-xl">-</button>
+
+      <button class="button bg-gray-200 hover:bg-gray-300 p-4 rounded text-xl">0</button>
+      <button class="button bg-red-400 hover:bg-red-500 text-white p-4 rounded text-xl">C</button>
+      <button class="button bg-green-500 hover:bg-green-600 text-white p-4 rounded text-xl">=</button>
+      <button class="button bg-orange-400 hover:bg-orange-500 text-white p-4 rounded text-xl">+</button>
+    </div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
+
+      
+
